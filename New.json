@@ -1,0 +1,21 @@
+{ 
+"appnews": 
+{ "appid": 252490,
+ "newsitems": [ 
+ { 
+ "gid": 2543829635484,
+ "title": "Информация о сервере!",
+ "url": "https://vk.com/lifefinerust",
+ "is_external_url": true,
+ "author": "Администрация ...",
+ "contents": "[img] Link png [/img]
+TEXT          TEXT          TEXT                                          
+TEXT          TEXT          TEXT          
+",
+ "feedlabel": "Community Announcements",
+ "date": 1645660976,
+ "feedname": "steam_community_announcements",
+ "feed_type": 1,
+ "appid": 252490 
+}],"count":870}
+}
