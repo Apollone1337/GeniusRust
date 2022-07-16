@@ -4,13 +4,16 @@
  "newsitems": [ 
  { 
  "gid": 2543829635484,
- "title": "Информация о сервере!",
+ "title": "Обновление клиента 1.0",
  "url": "https://vk.com/genius.rust",
  "is_external_url": true,
- "author": "Администрация ...",
+ "author": "Apollone",
  "contents": "[img]https://github.com/Apollone1337/GeniusRust/raw/main/8w1Y9N3Cu1CUh9BEhQ_vnPdIg3k4ToRq4kAEaAbmu7xpiOH8lCMstkdPjyi2LrDcQlO5_NleoBeZcrgKp6DrmnLz.jpg[/img]
-TEXT          TEXT          TEXT                                          
-TEXT          TEXT          TEXT          
+Вырезали траву и лишний мусор с клиента 
+Добавили новый FPS Booster на кнопку INSERT
+Полностью изменили загрузочные экраны
+Донат магазин доступен по кнопке корзины прямо в клиенте 
+Пофиксили все уникальные предметы и переехали на новое железо    
 ",
  "feedlabel": "Community Announcements",
  "date": 1645660976,
