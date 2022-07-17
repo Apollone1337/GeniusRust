@@ -575,7 +575,7 @@ curcontent["Oplata"] = {
 </div>\
 <div class="oplata_cont"><a class="container-oplata" id="qiwi-inp-other2">\
 	<img alt="" src="https://i.imgur.com/kb8M7vg.png" class="icon-user-oplata"><div class="textContainer-oplata"><span class="name-user">Пополнить картой</span><span class="category-user">Visa, Mastercard и Мир</span></div></a><a class="container-oplata" onclick="Open(\'skins\');" target="_blank">\
-</div><div class="warnings_skin2">⚠ Перед тем как пополнять банковской картой через QIWI - нужно авторизироваться в своём кошельке, а если его нет - зарегистрировать.</div>'
+</div>
 };
 
 
