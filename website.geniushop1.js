@@ -49,7 +49,6 @@ curcontent["kit-kaban"] = {
 	xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стартовые</button>\
 	<button class="btn btn-secondary active">Кабанчик</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-joker\', false);">Джокер</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-masnik\', false);">Мясник</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-smert\', false);">Смэрть</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресы" - <span>Откат 24ч</span></div>\
@@ -339,7 +338,6 @@ curcontent["kit-free"] = {
 	xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary active">Стартовые</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">Кабанчик</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-joker\', false);">Джокер</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-masnik\', false);">Мясник</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-smert\', false);">Смэрть</button>\
 <div class="xbox_custom_kits" >\
