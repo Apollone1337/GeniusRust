@@ -1,7 +1,7 @@
 var curcontent = new Array();
 
 curcontent["rules"] = {
-	xhead: 'Правила',
+	xhead: 'Писька',
 	xcon: '<div class="xbox_custom_rules"><ul><p class="MsoNormal"><span>Информация</span></p>\
 <p><li>Не знание правил не освобождает Вас от ответственности.</li></p>\
 <p><li>Зайдя на сервер Вы автоматически соглашаетесь со всеми нижеперечисленными пунктами правил.</li></p>\
