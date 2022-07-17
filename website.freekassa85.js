@@ -1,9 +1,9 @@
 var curcontent = new Array();
 
 curcontent["rules"] = {
-	xhead: 'Правила',
-	xcon: '<div class="xbox_custom_rules"><ul><p class="MsoNormal"><span>Писька</span></p>\
-<p><li>Знание правил не освобождает Вас от ответственности.</li></p>\
+	xhead: 'Тест',
+	xcon: '<div class="xbox_custom_rules"><ul><p class="MsoNormal"><span>Тест</span></p>\
+<p><li>Не знание правил не освобождает Вас от ответственности.</li></p>\
 <p><li>Зайдя на сервер Вы автоматически соглашаетесь со всеми нижеперечисленными пунктами правил.</li></p>\
 <p><li>Вы несете ответственность за все свои аккаунты. Получив бан на одном аккаунте - Вы получите его и на последующих аккаунтах. То же самое будет если на одном из ваших аккаунтах имеется EAC блокировка.</li></p>\
 <p><li>Если Вы уже были замечены с читами / макросами на другом сервере / проекте и на вас есть пруфы - мы имеем право забанить Вас без проверки.</li></p>\
@@ -559,11 +559,11 @@ curcontent["Oplata"] = {
 			<label for="qiwi-donation-amount" class="qiwi-label">Cумма</label>\
 			<div class="qiwi-rub">₽</div>\
 			<input type="tel" placeholder="Сумма" id="qiwi-donation-amount" name="amount" required="" value="">\
-			<input type="hidden" id="qiwi-donation-comment" name="comment" value="Пожертвование на geniushop.ru">\
-			<input type="hidden" name="publicKey" value="48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPrB98fJwPHg5vhMsGycX3WzNEs8UXKbKT85oGKSrXggya4cQm1gScupHJwF2DWZrJr1hNnySCeVEMMTxJhU9h17n8CJTfogjRZYuHjEJic">\
+			<input type="hidden" id="qiwi-donation-comment" name="comment" value="Пожертвование на bloodrust.ru">\
+			<input type="hidden" name="publicKey" value="48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPyYb3nRBuxevDsKY6rAMEqp3auWv8y29CEHXiGRrVu8cvxDM2FKrtMeY2L9V4uZF8MvgEXun2DKpb2x2khK9Wd9ZXaLMo1fEEUPw7JjHm2">\
 			<input type="hidden" id="qiwi-donation-account" name="account" value="0">\
-			<input type="hidden" name="customFields[themeCode]" value="genius">\
-			<input type="hidden" id="qiwi-successUrl" name="successUrl" value="https://geniushop.ru">\
+			<input type="hidden" name="customFields[themeCode]" value="Danyl-KQ9j5jeOeo">\
+			<input type="hidden" id="qiwi-successUrl" name="successUrl" value="https://bloodrust.ru">\
 			<div class="qiwi-error-box" id="qiwi-error-box"></div>\
 	</div>\
 	<div class="qiwi-button-box">\
@@ -571,11 +571,38 @@ curcontent["Oplata"] = {
 	</div>\
 </div>\
 </form>\
+<form onsubmit="return freekassaHandler(event)" class="qiwi-inp-form" id="fk-inp-form" method="get" target="_blank" action="https://enot.io/pay">\
+<label for="fk-donation-amount" class="qiwi-inp-oplata" id="qiwi-inp-other">\
+	<div class="qiwi-widget-title">Enot.io<br><p>иностранные карты и крипта</p></div>\
+	<div class="qiwi-inp-box">\
+			<label for="fk-donation-amount" class="qiwi-label">Cумма</label>\
+			<div class="qiwi-rub">₽</div>\
+			<input type="tel" placeholder="Сумма" id="fk-donation-amount" name="oa" required="" value="">\
+			<input type="hidden" id="fk-donation-sign" name="s" value="">\
+			<input type="hidden" id="enot-donation-id" name="o" value="">\
+			<input type="hidden" id="fk-donation-comment" name="cf" value="">\
+			<input type="hidden" name="m" value="37757">\
+			<input type="hidden" name="c" value="Blood Store">\
+			<input type="hidden" name="cr" value="RUB">\
+			<div class="qiwi-error-box" id="fk-error-box"></div>\
+	</div>\
+	<div class="qiwi-button-box">\
+		<button class="qiwi-submit-main" id="fk-submit-main" width="159px" type="submit">Оплатить</button>\
+	</div>\
+	<div class="payment-block">\
+        <div class="payment-type payment-block-steam"></div><div class="payment-type payment-block-crypto"></div><div class="payment-type payment-block-cash"></div><div class="payment-type payment-block-yoomoney"></div><!--<div class="payment-type payment-block-megafon"></div>-->\
+	</div>\
+	</label>\
+</form>\
 </div>\
 <div class="oplata_cont"><a class="container-oplata" id="qiwi-inp-other2">\
 	<img alt="" src="https://i.imgur.com/kb8M7vg.png" class="icon-user-oplata"><div class="textContainer-oplata"><span class="name-user">Пополнить картой</span><span class="category-user">Visa, Mastercard и Мир</span></div></a><a class="container-oplata" onclick="Open(\'skins\');" target="_blank">\
-</div>
+	<img alt="" src="https://i.imgur.com/iV8LCN1.png" class="icon-user-oplata"><div class="textContainer-oplata"><span class="name-user">Пополнить скинами</span><span class="category-user">По ценам с торговой площадки</span></div></a>\
+</div><div class="warnings_skin2">⚠ Перед тем как пополнять банковской картой через QIWI - нужно авторизироваться в своём кошельке, а если его нет - зарегистрировать.</div>'
 };
+
+
+
 var BlockListArrays = [
 ['shotgun.waterpipe', 'pistol.revolver'],
 ['flamethrower', 'pistol.python', 'pistol.semiauto', 'shotgun.double'], 
