@@ -38,30 +38,10 @@ curcontent["rules"] = {
 <p><li>Запрещено чистить ПК перед проверкой.</li></p>\
 <p><li>За отказ показывать нужную для проверки информацию или неадекватное поведение — вы будете заблокированы.</li></p>\
 <p><li>Если по итогам проверки игрок блокируется — вся его команда блокируется вместе с ним.</li></p>\
-</ul><div class="unban" style="background: white; border-radius: 10px; padding: 20px;"><p class="MsoNormal" style="font-weight: bold; margin-bottom: 5px;">Возможность разблокровки</p><span>Через месяц после блокировки можно подать апелляцию, но, только в случае если бан был получен не за читы или макросы. Писать апелляцию нужно в личные сообщения отдельной группы: <a href="https://vk.com/bloodappeal">vk.com/bloodappeal</a></span></div></div></div>'
+</ul><div class="unban" style="background: white; border-radius: 10px; padding: 20px;"><p class="MsoNormal" style="font-weight: bold; margin-bottom: 5px;">Возможность разблокровки</p><span>Через месяц после блокировки можно подать апелляцию, но, только в случае если бан был получен не за читы или макросы. Писать апелляцию нужно в личные сообщения отдельной группы: <a href="https://vk.com/geniusban">vk.com/geniusban</a></span></div></div></div>'
 };
 
 //<p style="text-align: center;"><u>При заходе на наши сервера вы автоматически соглашаетесь с правилами.</u></p>\
-
-curcontent["skins"] = {
-	xhead: 'Пополнение скинами напрямую',
-	xcon: '<div class="skin-content"><div class="spoiler"><div class="x-spoiler">\
-<input class="spoil-button" type="checkbox" tabindex="-1">\
-     <div class="spoil-box"><span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Что значит пополнение напрямую?</span><br><blockquote class="spoil-Untext">Обычно пополнение скинами происходит через сторонние сервисы (SkinPay или Skins.Cash), но в этом случае игрок который пополняет баланс теряет около ~50% от цены скинов. Мы же хотим предложить вам пополнение баланса скинами практически по ценам с торговой площадки, без каких-либо посредников.</span></blockquote>\
-     </div></div>\
-<div class="x-spoiler">\
-<input class="spoil-button" type="checkbox" tabindex="-1">\
-     <div class="spoil-box">\
-         <span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Ограничения при пополнении напрямую</span><span class="skin-warning">обязательно прочти</span>\
-         <blockquote class="spoil-Untext">\» У вас <b>не должно</b> быть задержки <b>15 дней</b> на обмены (бот отклоняет обмены с задержкой)<br>» Принимаются скины только из <b>RUST</b> и <b>CS:GO</b><br>» Если скинов в обмене много - лучше отправлять частями<br>» Баланс будет пополнен только того аккаунта, с которого были отправлены скины</li></ol>\
-         </blockquote>\
-     </div></div>\
-<div class="x-spoiler">\
-<input class="spoil-button" type="checkbox" tabindex="-1">\
-     <div class="spoil-box"><span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Хочу пополнить баланс скинами</span><br>\
-	 <blockquote class="spoil-Untext">Чтобы пополнить баланс необходимо перейти на страницу обмена (нажав на кнопку снизу), выбрать скины которыми хотите пополнить, нажать кнопку "Предложить обмен" и подтвердить обмен через мобильное приложение Steam.<div class="btn-skins"><a class="btn-skin" href="https://steamcommunity.com/tradeoffer/new/?partner=97747149&token=6cxG98Sh" target="_blank">Начать обмен</a></blockquote>\
-     </div></div></div><div class="warnings_skin">⚠ Перед тем как отправлять скины обязательно ознакомьтесь с <b>ограничениями при пополнении скинами</b> и <b>авторизируйтесь на сайте</b>, а так-же учтите, средства за скины будут зачислены только на баланс аккаунта с которого они были отправлены.</div></div>'
-};
 
 
 curcontent["kit-kaban"] = {
@@ -153,117 +133,12 @@ curcontent["kit-kaban"] = {
 </div></div></div>'
 };
 
-curcontent["kit-joker"] = {
-	xhead: 'Платные киты',
-	xcon: '<div class="store-categories">\
-	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">Кабанчик</button>\
-	<button class="btn btn-secondary active">Джокер</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-masnik\', false);">Мясник</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-smert\', false);">Смэрть</button>\
-	<div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресы" - <span>Откат 24ч</span></div>\
-<div class="kit_set"><div class="kit-items">\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/stones.png">\
-<div class="kit-item__quantity">x8000</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/wood.png">\
-<div class="kit-item__quantity">x8000</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/metal.fragments.png">\
-<div class="kit-item__quantity">x4000</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/gunpowder.png">\
-<div class="kit-item__quantity">x2000</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/sulfur.png">\
-<div class="kit-item__quantity">x2000</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/charcoal.png">\
-<div class="kit-item__quantity">x2000</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/lowgradefuel.png">\
-<div class="kit-item__quantity">x600</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/cloth.png">\
-<div class="kit-item__quantity">x600</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/leather.png">\
-<div class="kit-item__quantity">x600</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/metal.refined.png">\
-<div class="kit-item__quantity">x200</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/gears.png">\
-<div class="kit-item__quantity">x10</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/sewingkit.png">\
-<div class="kit-item__quantity">x15</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/metalpipe.png">\
-<div class="kit-item__quantity">x15</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/metalspring.png">\
-<div class="kit-item__quantity">x15</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/smgbody.png">\
-<div class="kit-item__quantity">x2</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/riflebody.png">\
-<div class="kit-item__quantity">x2</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/semibody.png">\
-<div class="kit-item__quantity">x4</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/roadsigns.png">\
-<div class="kit-item__quantity">x15</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/rope.png">\
-<div class="kit-item__quantity">x15</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/tarp.png">\
-<div class="kit-item__quantity">x15</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/scrap.png">\
-<div class="kit-item__quantity">x200</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/supply.signal.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-</div></div></div>\
-<div class="xbox_custom_kits" ><div class="serverheader">Кит "Снаряжение" - <span>Откат 24ч</span></div>\
-<div class="kit_set"><div class="kit-items">\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/rifle.m39.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/ammo.rifle.png">\
-<div class="kit-item__quantity">x100</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/coffeecan.helmet.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/roadsign.jacket.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/roadsign.kilt.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/hoodie.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/pants.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/shoes.boots.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/largemedkit.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/syringe.medical.png">\
-<div class="kit-item__quantity">x6</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/icepick.salvaged.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/axe.salvaged.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/explosive.satchel.png">\
-<div class="kit-item__quantity">x4</div></div></div>\
-</div></div></div>\
-<div class="xbox_custom_kits" ><div class="serverheader">Кит "Дом" - <span>Откат 72ч</span></div>\
-<div class="kit_set"><div class="kit-items">\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/workbench2.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/small.oil.refinery.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/coffin.storage.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-</div></div></div>\
-<div class="xbox_custom_kits" ><div class="serverheader">Кит "Магический" (один на все привилегии) - <span>Откат 24ч</span></div>\
-<div class="kit_set"><div class="kit-items">\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://xackuscr.ru/rust/goldskull.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://xackuscr.ru/rust/magictree.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://xackuscr.ru/rust/crystall.png">\
-<div class="kit-item__quantity">x2</div></div></div>\
-</div></div></div>'
-};
-
 
 curcontent["kit-masnik"] = {
 	xhead: 'Платные киты',
 	xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стартовые</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">Кабанчик</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-joker\', false);">Джокер</button>\
 	<button class="btn btn-secondary active">Мясник</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-smert\', false);">Смэрть</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресы" - <span>Откат 24ч</span></div>\
@@ -354,15 +229,6 @@ curcontent["kit-masnik"] = {
 <div class="kit-item__quantity">x1</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/coffin.storage.png">\
 <div class="kit-item__quantity">x2</div></div></div>\
-</div></div></div>\
-<div class="xbox_custom_kits" ><div class="serverheader">Кит "Магический" (один на все привилегии) - <span>Откат 24ч</span></div>\
-<div class="kit_set"><div class="kit-items">\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://xackuscr.ru/rust/goldskull.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://xackuscr.ru/rust/magictree.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://xackuscr.ru/rust/crystall.png">\
-<div class="kit-item__quantity">x2</div></div></div>\
 </div></div></div>'
 };
 
@@ -372,7 +238,6 @@ curcontent["kit-smert"] = {
 	xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стартовые</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">Кабанчик</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-joker\', false);">Джокер</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-masnik\', false);">Мясник</button>\
 	<button class="btn btn-secondary active">Смэрть</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресы" - <span>Откат 24ч</span></div>\
@@ -465,15 +330,6 @@ curcontent["kit-smert"] = {
 <div class="kit-item__quantity">x3</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/bed.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
-</div></div></div>\
-<div class="xbox_custom_kits" ><div class="serverheader">Кит "Магический" (один на все привилегии) - <span>Откат 24ч</span></div>\
-<div class="kit_set"><div class="kit-items">\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://xackuscr.ru/rust/goldskull.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://xackuscr.ru/rust/magictree.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://xackuscr.ru/rust/crystall.png">\
-<div class="kit-item__quantity">x2</div></div></div>\
 </div></div></div>'
 };
 
@@ -526,7 +382,7 @@ curcontent["kit-free"] = {
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/furnace.png">\
 <div class="kit-item__quantity">25%</div></div></div>\
 </div></div>\
-<div class="serverheader">Кит за "#bloodrust" в нике - <span>Откат 48ч</span></div>\
+<div class="serverheader">Кит за "#GENIUSRUST" в нике - <span>Откат 48ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/deer.skull.mask.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
