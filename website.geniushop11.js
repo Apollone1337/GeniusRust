@@ -1,5 +1,4 @@
 var curcontent = new Array();
-@charset "UTF-8"; 
 
 curcontent["rules"] = {
 	xhead: 'Правила',
