@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @charset "UTF-8"; 
 
-.topbar {
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-}
-
 body, .wrapper {
     background: #F3F4F6 repeat-y;
     background-size: 1920px 1080px;
@@ -2560,4 +2551,13 @@ blockquote {
 
 .fa-play {
     margin-top: 0px !important;
+}
+
+.topbar {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
