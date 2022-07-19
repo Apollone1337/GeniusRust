@@ -1,0 +1,43 @@
+<div class="xbox xbox_rules"><div class="xbox__body">
+    <div class="rules" onclick="Open('rules');" target="_blank">
+      <a>Правила</a>
+  	</div>
+  	<div class="rules" onclick="Open('block');" target="_blank">
+      <a>Вайпблок</a>
+  	</div>
+  	<div class="rules" onclick="Open('kit-free');" target="_blank">
+      <a>Киты</a>
+  	</div>
+</div></div>
+<style>
+.xbox_rules {
+    text-transform: uppercase;
+    text-align: center;
+    color: #cccccc;
+    border-radius: 15px;
+}
+.rules {
+  font-weight: 100;
+  cursor: pointer;
+  margin-bottom: 5px;
+  padding: 5px;
+  /* border-radius: 0px; */
+  background: white;
+  color: black;
+  transition:
+  all 0.2s ease-in-out;
+  letter-spacing: 0px;
+}
+.rules:first-child {
+  border-radius: -25px 15px 0px 0px;
+}
+.rules:last-child {
+  border-radius: 0px 0px 15px 15px;
+}
+.rules:hover {
+  background: black;
+  transition:all 0.2s ease-in-out;
+  color: white;
+  letter-spacing: 2px;
+}
+</style>
