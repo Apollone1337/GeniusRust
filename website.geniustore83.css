@@ -2568,6 +2568,6 @@ blockquote {
 } 
 
 .xserver:nth-child(2) .xserver__status .progress {
-    background: linear-gradient(to left, #f9bf76 0%, #f39f86 100%);
+    background: linear-gradient(to left, #00a550 0%, #00a550 100%);
     animation: load 4s normal forwards
 }
