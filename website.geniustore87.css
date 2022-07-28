@@ -2275,10 +2275,8 @@ blockquote {
 .block_category_4:before{background:#dbce6f;content:"10 часов";font-size: 20px;}
 .block-lvl-4{background:#38d27c}.block_category_5{background-color:rgba(219, 191, 111, 0.5)}
 .block_category_5:before{background:#dbbf6f;content:"18 часов";font-size: 20px;}
-.block-lvl-5{background:#38d2a0}.block_category_6{background-color:rgba(219, 151, 111, 0.5)}
-.block_category_6:before{background:#db976f;content:"24 часа";font-size: 20px;}
-.block-lvl-6{background:#aa69c5}.block_category_7{background-color:rgba(219, 116, 111, 0.5);border-radius: 0px 20px 20px 0px;}
-.block_category_7:before{border-radius: 0px 20px 20px 0px;background:#db746f;content:"28 часов";font-size: 20px;}
+.block-lvl-5{background:#38d2a0}.block_category_7{background-color:rgba(219, 151, 111, 0.5)}
+.block_category_7:before{border-radius: 0px 20px 20px 0px;background:#db746f;content:"24 часов";font-size: 20px;}
 .block-lvl-7{background:#dc9e2d}
  
 .block_by_category:nth-child(5) .kit-items__item, .block_by_category:nth-child(6) .kit-items__item {width: 100%;}
