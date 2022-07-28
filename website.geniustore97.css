@@ -1368,16 +1368,11 @@ label {
     justify-content: center;
     align-items: center;
 }
-.oplata_cont {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 .container-oplata:nth-child(1) {
     margin-right: 0px !important;
 }
-.container-oplata {
+.container-{
     margin-bottom: 10px
 }
 #qiwi-inp-form {
