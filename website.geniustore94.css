@@ -43,6 +43,45 @@ button, input, optgroup, select, textarea {
 .xbox_server .xbox__header, .xbox_player .xbox__header {
     display: block !important;
 }
+.product[href="/products/1151791"] .productname {
+    font-size: 0px;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+    background: linear-gradient(-45deg, #d0b155, #6cb347, #adc6e9, #adb7e9);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    border-radius: 15px;
+    color: white;
+}
+
+.product[href="/products/1151791"] .productname:after {
+      content: "БЕСПЛАТНО";
+    font-size: 14px;
+}
+.product[href="/products/1151791"] .product__discount {
+      display: none;
+}
+
+.product[href="/products/1151849"] .productname {
+    font-size: 0px;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+    background: linear-gradient(-45deg, #d0b155, #6cb347, #adc6e9, #adb7e9);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    border-radius: 15px;
+    color: white;
+}
+.product[href="/products/1151849"] .productname:after {
+      content: "БЕСПЛАТНО";
+    font-size: 14px;
+}
+.product[href="/products/1151849"] .product__discount {
+      display: none;
+
+}
 
 .xbox__body {
     color: black;
