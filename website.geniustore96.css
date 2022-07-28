@@ -1341,12 +1341,6 @@ label {
 #qiwi-inp-form {
     margin-right: 10px;
 }
-.oplata_cont {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
 .oplata_info {
     display: flex;
     justify-content: center;
