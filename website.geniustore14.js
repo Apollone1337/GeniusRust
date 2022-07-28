@@ -400,7 +400,6 @@ var BlockListArrays = [
 ['shotgun.pump', 'shotgun.spas12', 'pistol.m92', 'rifle.semiauto', 'coffeecan.helmet', 'roadsign.jacket', 'roadsign.kilt'],
 ['smg.2', 'smg.thompson', 'smg.mp5', 'metal.facemask', 'metal.plate.torso'], 
 ['rifle.bolt', 'surveycharge', 'heavy.plate.helmet', 'heavy.plate.jacket', 'heavy.plate.pants'], 
-['rifle.ak', 'rifle.lr300', 'grenade.f1', 'grenade.beancan', 'explosive.satchel'],
 ['lmg.m249', 'ammo.rifle.explosive', 'explosive.timed', 'rocket.launcher']];
 
 
