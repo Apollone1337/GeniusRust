@@ -722,7 +722,7 @@ color: #777777;
 }
  
 .xserver:nth-child(2) .xserver__title:after {
-content: "Modded" ;
+content: "Combat" ;
 font-weight: 100;
 margin-left: 4px;
 font-size: 13px;
