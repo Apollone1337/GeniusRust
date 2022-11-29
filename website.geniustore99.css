@@ -2529,8 +2529,3 @@ blockquote {
     margin-top: 15px;
 
 } 
-
-.xserver:nth-child(2) .xserver__status .progress {
-    background: linear-gradient(to left, #95b63b 0%, #10ac60 100%);
-    animation: load 4s normal forwards
-}
